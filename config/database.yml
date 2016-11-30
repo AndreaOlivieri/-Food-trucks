@@ -2,13 +2,13 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: postgres
+  username: <%= ENV['POSTGRESQL_USER_NAME'] %>
   password: <%= ENV['POSTGRESQL_PASSWORD'] %>
 
 development:
   <<: *default
-  database: to_eat_dev
+  database: food_tracks_dev
 
 test:
   <<: *default
-  database: to_eat_test
+  database: food_tracks_test

@@ -22,6 +22,7 @@ group :development, :test do
   gem 'spring'
   gem 'pry'
   gem 'pry-byebug'
+  gem 'dotenv-rails'
 end
 
 group :development do
