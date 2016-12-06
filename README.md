@@ -1,13 +1,13 @@
-# Food-trucks
+# ToEatApp
 
 An example demonstrating how Facebook's React, Relay and GraphQL libraries can be used inconjunction with a Ruby on Rails/postgresql based web server.
 This application utilizes ES6 javascripts that gets transpiled by Babel and Webpack.
 
 # SETUP
 
-git clone https://github.com/AndreaOlivieri/Food-trucks
+git clone https://github.com/AndreaOlivieri/ToEatApp
 
-cd Food-trucks
+cd ToEatApp
 
 bundle install
 
